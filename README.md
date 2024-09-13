@@ -1,1 +1,1 @@
-# poetic_text_gen
+# Poetic Text Generator
