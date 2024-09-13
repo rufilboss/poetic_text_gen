@@ -21,14 +21,14 @@ characters = sorted(set(text))
 
 # Convert
 char_to_index = dict((c, i) for i, c in enumerate(characters))
-index_to_char = dict((c, i) for i, c in enumerate(characters))
+index_to_char = dict((i, c) for i, c in enumerate(characters))
 
 # Settings the charaters long
 SEQ_LENTH = 40
 STEP_SIZE = 3
 
 
-'''
+
 sentences = []
 next_characters = []
 
@@ -44,7 +44,7 @@ for i, sentence in enumerate(sentences):
         x[i, t, char_to_index[character]] = 1
     y[i, char_to_index[next_characters[i]]] = 1
     
-'''
+
 
 # =====================================================================================================
 '''
