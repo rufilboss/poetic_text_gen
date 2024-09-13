@@ -66,6 +66,7 @@ model.save('textgenerator.keras')
 '''
 # =====================================================================================================
 
+# Here's the pre-trained model, which can be used directly without needing to retrain the model every time it's run.
 model = tf.keras.models.load_model('textgenerator.keras')
 
 # Sampling function
